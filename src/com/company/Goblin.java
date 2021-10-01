@@ -1,32 +1,28 @@
 package com.company;
 
-public class Slime implements Monster{
+public class Goblin implements Monster{
     @Override
     public int Attack() {
-        return 5;
-    }
-
-    @Override
-    public int SPAttack() {
         return 10;
     }
 
     @Override
+    public int SPAttack() {
+        return 20;
+    }
+
+    @Override
     public String name() {
-        return "Slime";
+        return "Goblin";
     }
 
     @Override
     public int HealthPoint() {
-        return 30;
+        return 40;
     }
 
     @Override
     public int giveLevels() {
-        return 5;
-    }
-
-    public Slime(){
-
+        return 8;
     }
 }
